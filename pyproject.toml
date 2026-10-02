@@ -1,0 +1,50 @@
+[project]
+name = "qwen-decider"
+version = "0.1.0"
+description = "固定 vLLM 0.14.1 的 Qwen3.5 有限选项决策推理服务"
+authors = [
+    {name = "migo",email = "1695587905@qq.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "torch==2.9.1",
+    "vllm==0.14.1",
+    "transformers==4.57.6",
+    "fastapi==0.142.2",
+    "uvicorn==0.54.0",
+    "typer==0.27.2",
+    "pydantic==2.13.5",
+    "httpx==0.28.1",
+    "safetensors==0.8.0",
+    "prometheus-client==0.26.0",
+]
+
+[tool.poetry]
+packages = [{include = "qwen_decider", from = "src"}]
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.scripts]
+qwen-decider = "qwen_decider.commands.app:app"
+
+[project.entry-points."vllm.general_plugins"]
+qwen_decider = "qwen_decider.models:register"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]

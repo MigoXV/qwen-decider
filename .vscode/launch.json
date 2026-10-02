@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"name":"决策服务","type":"debugpy","request":"launch","module":"qwen_decider.commands.app","args":["serve"],"envFile":"${workspaceFolder}/.env","justMyCode":false}]}

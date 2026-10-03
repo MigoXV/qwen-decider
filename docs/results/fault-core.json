@@ -1,0 +1,8 @@
+{
+  "mode": "core",
+  "request_result": 503,
+  "completion_seconds": 0.0051451330073177814,
+  "ready_status": 503,
+  "live_status": 200,
+  "remaining_pids": []
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "precision": "bf16",
+    "architecture": "Qwen3_5ForCausalLM",
+    "tensors": 320,
+    "tensor_dtypes": {
+      "BF16": 320
+    },
+    "weight_bytes": 3763692048,
+    "tokenizer_size": 248077
+  },
+  {
+    "precision": "fp16",
+    "architecture": "Qwen3_5ForCausalLM",
+    "tensors": 320,
+    "tensor_dtypes": {
+      "F16": 320
+    },
+    "weight_bytes": 3763691728,
+    "tokenizer_size": 248077
+  },
+  {
+    "precision": "int8",
+    "architecture": "Qwen3_5ForCausalLM",
+    "tensors": 416,
+    "tensor_dtypes": {
+      "BF16": 224,
+      "I8": 96,
+      "F32": 96
+    },
+    "weight_bytes": 2771202040,
+    "tokenizer_size": 248077
+  }
+]

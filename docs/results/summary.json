@@ -1,0 +1,218 @@
+[
+  {
+    "precision": "bf16",
+    "questions": 1,
+    "concurrency": 1,
+    "p50_ms": 45.73,
+    "p95_ms": 55.13,
+    "questions_per_second": 20.85,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 1,
+    "concurrency": 2,
+    "p50_ms": 84.49,
+    "p95_ms": 99.26,
+    "questions_per_second": 21.77,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 1,
+    "concurrency": 4,
+    "p50_ms": 99.27,
+    "p95_ms": 130.01,
+    "questions_per_second": 34.83,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 1,
+    "concurrency": 8,
+    "p50_ms": 158.47,
+    "p95_ms": 163.59,
+    "questions_per_second": 47.32,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 8,
+    "concurrency": 1,
+    "p50_ms": 123.53,
+    "p95_ms": 193.35,
+    "questions_per_second": 55.12,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 8,
+    "concurrency": 2,
+    "p50_ms": 200.07,
+    "p95_ms": 278.75,
+    "questions_per_second": 71.5,
+    "errors": 0
+  },
+  {
+    "precision": "bf16",
+    "questions": 8,
+    "concurrency": 4,
+    "p50_ms": 249.85,
+    "p95_ms": 467.89,
+    "questions_per_second": 82.61,
+    "errors": 2
+  },
+  {
+    "precision": "bf16",
+    "questions": 8,
+    "concurrency": 8,
+    "p50_ms": 414.74,
+    "p95_ms": 619.46,
+    "questions_per_second": 102.29,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 1,
+    "concurrency": 1,
+    "p50_ms": 43.24,
+    "p95_ms": 45.57,
+    "questions_per_second": 23.15,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 1,
+    "concurrency": 2,
+    "p50_ms": 80.95,
+    "p95_ms": 83.11,
+    "questions_per_second": 24.39,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 1,
+    "concurrency": 4,
+    "p50_ms": 87.83,
+    "p95_ms": 100.75,
+    "questions_per_second": 43.34,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 1,
+    "concurrency": 8,
+    "p50_ms": 126.06,
+    "p95_ms": 130.99,
+    "questions_per_second": 58.12,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 8,
+    "concurrency": 1,
+    "p50_ms": 117.57,
+    "p95_ms": 155.74,
+    "questions_per_second": 63.02,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 8,
+    "concurrency": 2,
+    "p50_ms": 179.82,
+    "p95_ms": 257.98,
+    "questions_per_second": 80.35,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 8,
+    "concurrency": 4,
+    "p50_ms": 238.09,
+    "p95_ms": 394.66,
+    "questions_per_second": 109.68,
+    "errors": 0
+  },
+  {
+    "precision": "fp16",
+    "questions": 8,
+    "concurrency": 8,
+    "p50_ms": 303.54,
+    "p95_ms": 512.52,
+    "questions_per_second": 124.11,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 1,
+    "concurrency": 1,
+    "p50_ms": 44.4,
+    "p95_ms": 45.99,
+    "questions_per_second": 22.39,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 1,
+    "concurrency": 2,
+    "p50_ms": 79.85,
+    "p95_ms": 84.62,
+    "questions_per_second": 24.52,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 1,
+    "concurrency": 4,
+    "p50_ms": 92.59,
+    "p95_ms": 104.09,
+    "questions_per_second": 41.28,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 1,
+    "concurrency": 8,
+    "p50_ms": 127.23,
+    "p95_ms": 133.15,
+    "questions_per_second": 57.28,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 8,
+    "concurrency": 1,
+    "p50_ms": 113.56,
+    "p95_ms": 134.77,
+    "questions_per_second": 68.47,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 8,
+    "concurrency": 2,
+    "p50_ms": 170.23,
+    "p95_ms": 214.83,
+    "questions_per_second": 89.73,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 8,
+    "concurrency": 4,
+    "p50_ms": 206.65,
+    "p95_ms": 299.38,
+    "questions_per_second": 131.87,
+    "errors": 0
+  },
+  {
+    "precision": "int8",
+    "questions": 8,
+    "concurrency": 8,
+    "p50_ms": 286.25,
+    "p95_ms": 430.79,
+    "questions_per_second": 147.63,
+    "errors": 0
+  }
+]

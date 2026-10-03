@@ -1,0 +1,33 @@
+{
+  "/health/ready": {
+    "status": 200,
+    "body": {
+      "status": "ready",
+      "instance_id": "instance_9d2990def68c41dea2b120670305118f",
+      "source_sha256": "68c12679cd64b8618e04fe8ebb225fdb4fca2d3e6df01f908d3f87cded5f15eb",
+      "model": "spark25",
+      "vllm": "0.14.1",
+      "dtype": "bfloat16",
+      "precision": "int8",
+      "quantization": "compressed-tensors",
+      "model_path": "/model-bin",
+      "enforce_eager": false,
+      "max_model_len": 128000,
+      "max_concurrency": 8
+    }
+  },
+  "/v1/models": {
+    "status": 200,
+    "body": {
+      "object": "list",
+      "data": [
+        {
+          "id": "spark25",
+          "object": "model",
+          "created": 0,
+          "owned_by": "local"
+        }
+      ]
+    }
+  }
+}

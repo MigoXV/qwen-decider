@@ -1,0 +1,26 @@
+[
+  {
+    "precision": "bf16",
+    "model_class": "Qwen3_5ForCausalLM",
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "dtype": "torch.bfloat16",
+    "vocab_size": 248077
+  },
+  {
+    "precision": "fp16",
+    "model_class": "Qwen3_5ForCausalLM",
+    "loading_info": {
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "mismatched_keys": [],
+      "error_msgs": []
+    },
+    "dtype": "torch.float16",
+    "vocab_size": 248077
+  }
+]
